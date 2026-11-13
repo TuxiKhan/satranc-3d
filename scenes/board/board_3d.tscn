@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://ctkslu0mgey8u"]
+
+[ext_resource type="Script" uid="uid://dsqikxlyqnhfv" path="res://scripts/board/board_3d.gd" id="1_board"]
+
+[node name="Board3D" type="Node3D" unique_id=1375879889]
+script = ExtResource("1_board")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1027400955]
+transform = Transform3D(1, 0, 0, 0, 0.6427876, 0.7660444, 0, -0.7660444, 0.6427876, 0, 9, 8)
+current = true
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1253739666]
+transform = Transform3D(1, 0, 0, 0, 0.5, 0.8660254, 0, -0.8660254, 0.5, 0, 6, 0)
