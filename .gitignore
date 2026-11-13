@@ -1,0 +1,9 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Araç dosyaları (repoya dahil değil)
+addons/godot_mcp_toolkit/
+.mcp.json
+.claude/
+.worktrees/
